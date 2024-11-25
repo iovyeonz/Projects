@@ -1,0 +1,444 @@
+.light-text {
+    font-weight: 200;
+}
+nav.navbar {
+    position: absolute;
+    z-index: 1;
+    background-color: #0000 !important;
+}
+
+/* Custom styles for your navigation */
+.navbar-brand img {
+    max-height: 50px; /* Adjust the max-height as needed */
+    width: auto;
+}
+
+.navbar-nav a {
+    color: black;
+}
+
+.navbar-nav a:hover {
+    color: #f0f0f0; /* Adjust the color on hover as needed */
+}
+
+/* Optional: Adjust the color for the active link */
+.navbar-nav .active {
+    color: rgb(11, 235, 235);
+}
+
+/* Optional: Add custom styles for the toggle button icon */
+.navbar-toggler-icon {
+    background-color:  #0000 !important; /* Adjust the color of the toggle button icon */
+}
+
+/* Optional: Customize the background color and text color of the collapsed navbar */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f9fa; /* Adjust the background color as needed */
+        padding: 10px; /* Adjust the padding as needed */
+        border-radius: 5px; /* Optional: Add border-radius for a rounded appearance */
+    }
+
+    .navbar-nav {
+        margin-top: 10px; /* Adjust the margin as needed */
+    }
+
+    .navbar-nav a {
+        color: #333; /* Adjust the text color as needed */
+    }
+}
+
+
+
+  
+
+#color-me{
+    color: #fff;
+}
+
+#banner  {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/Assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235fc7;
+    background-blend-mode: overlay;
+    h1 {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}  
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+#story {
+    padding: 20px;
+    background-color: #f8f8f8; /* Add a background color for better readability */
+}
+
+#story img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#story h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#story p {
+    margin-bottom: 15px;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #story .col-12 {
+        margin-bottom: 20px;
+    }
+
+    #story .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #story img {
+        margin-right: 0;
+    }
+}
+
+
+
+
+}
+.dots{
+    margin-top: 50px;
+}
+
+/* Add this style to ensure proper rendering on mobile devices */
+
+#people {
+        padding: 20px;
+        background-image: url(Assets/bg3.png); /* Add this line with the path to your background image */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #30235f;
+        background-blend-mode: overlay;
+        color: #fff; /* Set text color to white or a suitable contrast color */
+    }
+    
+    
+
+
+#people img {
+    max-width: 100%;
+    height: auto;
+}
+
+#people h4 {
+    font-size: 1.5em;
+}
+
+#people p {
+    margin-bottom: 15px;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #people .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.btn-outline {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border: 2px solid;
+    background-color: #0000 !important;
+    color: aqua;
+    padding: 14px 20px;
+}
+
+
+#video {
+    padding: 20px;
+    background-image: url(Assets/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235f;
+    background-blend-mode: overlay;
+}
+
+.video_overlay {
+    position: relative;
+    
+}
+
+.main_video {
+    padding: 20px; /* Add padding to the main video container */
+}
+
+.icon {
+    position: relative;
+}
+
+.youtube-media img,
+.watch img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #video .col-12 {
+        margin-bottom: 20px;
+    }
+
+    #video .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .video_overlay {
+        padding: 20px; /* Adjust padding as needed for small screens */
+    }
+}
+
+
+#expertise {
+    padding: 20px;
+}
+
+#expertise .container {
+    max-width: 100%;
+}
+
+#expertise h3 {
+    font-size: 1.5em;
+}
+
+#expertise p {
+    margin-bottom: 15px;
+}
+
+#expertise img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #expertise .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Add this CSS in your stylesheet or in a <style> tag in your HTML document */
+
+/* Adjust padding for smaller screens */
+#team .col-12 {
+    padding-top: 20px;
+    background-image: url(Assets/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235f;
+    background-blend-mode: overlay;
+    font-family: roboto;
+    
+
+}
+
+/* Ensure images scale properly on smaller screens */
+#team img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center text in team member columns */
+#team .text-center {
+    text-align: center;
+}
+
+/* Add spacing between team member details */
+#team h5,
+#team p {
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+/* Increase padding for team member details on smaller screens */
+#team .col-12 h5,
+#team .col-12 p {
+    padding-top: 10px;
+}
+
+/* Adjust spacing for the last text block */
+#team .col-12:last-child {
+    padding-bottom: 20px;
+}
+
+
+
+#work {
+    padding: 20px;
+}
+
+#work h4 {
+    font-size: 1.5em;
+}
+
+#work h5 {
+    font-size: 1em;
+}
+
+/* Style for responsive images */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the "LOAD MORE" button */
+.btn-outline {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #work .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+#news {
+    padding: 20px;
+    background-color: #f8f8f8; /* Add a background color for better readability */
+}
+
+#news h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#news input,
+#news textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#news button {
+    background-color: #007bff; /* Use your preferred button color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the client logos */
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #news .col-12 {
+        margin-bottom: 20px;
+    }
+
+    #news .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #news input,
+    #news textarea {
+        margin-right: 0;
+    }
+}
+
+
+
+#contact {
+    padding: 20px;
+    background-image: url(Assets/bg5.png); /* Add this line with the path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #30235f;
+    background-blend-mode: overlay;
+    color: #fff; /* Set text color to white or a suitable contrast color */
+}
+
+#contact img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact h6 {
+    font-size: 1.2em;
+}
+
+#contact p {
+    margin-bottom: 15px;
+}
+
+/* Style for the "Subscribe to newsletter" input */
+#subscribe {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for the "Subscribe" button */
+.btn-gray {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-gray img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the social media logos */
+.logos {
+    max-width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Ensure a single column layout on small screens */
+@media (max-width: 767px) {
+    #contact .col-12 {
+        margin-bottom: 20px;
+    }
+
+    #contact .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
